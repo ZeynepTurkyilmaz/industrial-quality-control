@@ -10,6 +10,12 @@ Derived from the MVTec *metal_nut* dataset. You can download the original datase
 - **Classes**: `scratch`, `bent`.
 - **Split**: 80% Train, 20% Validation.
 
+### Sample Data
+| Scratch | Bent |
+| :---: | :---: |
+| ![Scratch](assets/images/scratch_sample.png) | ![Bent](assets/images/bent_sample.png) |
+
+
 ## Features
 - **Data Pipeline**: 
   - `scripts/prepare_dataset.py`: Automated script to generate YOLO-formatted data.
@@ -44,6 +50,15 @@ Derived from the MVTec *metal_nut* dataset. You can download the original datase
    python check_data_balance.py
    ```
    *(Note: Severe imbalance (e.g., 5 scratch vs 31 bent) will cause poor detection performance.)*
+
+## Training Results
+The model performance and sample predictions can be seen below:
+
+### Performance Metrics
+![Results](assets/images/results.png)
+
+### Sample Predictions
+![Predictions](assets/images/predictions.jpg)
 
 4. **Train Model**:
    ```bash
