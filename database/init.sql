@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS defects (
+    id SERIAL PRIMARY KEY,
+    defect_type VARCHAR(50) NOT NULL,
+    confidence FLOAT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

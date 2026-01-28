@@ -1,0 +1,7 @@
+train: C:/Users/zeynep/Desktop/industrial-quality-control/data/yolo/images/train
+val: C:/Users/zeynep/Desktop/industrial-quality-control/data/yolo/images/val
+
+nc: 2
+names:
+  - scratch
+  - bent

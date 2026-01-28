@@ -1,0 +1,22 @@
+# Core
+numpy
+opencv-python
+
+# YOLOv8
+ultralytics
+torch
+torchvision
+
+# API
+fastapi
+uvicorn
+python-multipart
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Utils
+matplotlib
+tqdm
+python-dotenv

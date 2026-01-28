@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+Thumbs.db
+.DS_Store
+
+# Project Specific
+runs/
+*.pt
+
+# Data
+data/
